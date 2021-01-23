@@ -29,6 +29,7 @@ set updatetime=50            "If this many milliseconds nothing is typed the swa
 set shortmess+=c             "Do not give ins-completion-menu messages.
 set laststatus=2             "Allways show status line
 set modifiable               "Fix modifiable on terminal
+set clipboard=unnamedplus    "Make system clipboard to work
 
 " Plugins
 call plug#begin('~/.vim/plugged')
