@@ -1,0 +1,7 @@
+{
+  "explorer.icon.enableVimDevicons": true,
+  "explorer.icon.enableNerdfont": true,
+  "yaml.schemas": {
+    "kubernetes": ["/*.yaml"]
+  }
+}
