@@ -62,6 +62,22 @@ nnoremap <Leader>v :e $MYVIMRC<cr>
 nnoremap <Leader>vt :e $HOME/Documents/vim-tips.txt<cr>
 inoremap jj <ESC>
 
+" map split windows mamagement
+nnoremap <space>h <C-w>wh
+nnoremap <space>l <C-w>l
+nnoremap <space>j <C-j>l
+nnoremap <space>k <C-k>k
+
+" Coc extensions
+let g:coc_global_extensions = [
+      \'coc-json', 
+      \'coc-git', 
+      \'coc-tsserver',
+      \'coc-yaml',
+      \'coc-prettier',
+      \'coc-eslint',
+      \]
+
 " Coc keys and completion
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
