@@ -1,5 +1,5 @@
 {
-  "explorer.icon.enableVimDevicons": true,
+  "explorer.file.showHiddenFiles":true, 
   "explorer.icon.enableNerdfont": true,
   "yaml.schemas": {
     "kubernetes": ["/*.yaml"]
