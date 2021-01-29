@@ -1,5 +1,7 @@
 {
-  "explorer.file.showHiddenFiles":true, 
+"coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "typescript", "javascript"],
+  "explorer.trash.command": "trash %l",
+  "explorer.file.showHiddenFiles":false, 
   "explorer.icon.enableNerdfont": true,
   "yaml.schemas": {
     "kubernetes": ["/*.yaml"]

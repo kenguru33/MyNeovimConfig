@@ -28,6 +28,7 @@ set cmdheight=2              "Number of screen lines to use for the command-line
 set updatetime=50            "If this many milliseconds nothing is typed the swap file will be written to disk.
 set shortmess+=c             "Do not give ins-completion-menu messages.
 set laststatus=2             "Allways show status line
+set showtabline=2
 set modifiable               "Fix modifiable on terminal
 set clipboard=unnamedplus    "Suport for system clipboard
 
@@ -35,3 +36,6 @@ let mapleader = " "
 nnoremap <Leader>v :e $MYVIMRC<cr>
 nnoremap <Leader>vt :e $HOME/Documents/vim-tips.txt<cr>
 inoremap jj <ESC>
+" move among buffers with CTRL
+map <C-J> :bnext<CR>
+map <C-K> :bprev<CR>

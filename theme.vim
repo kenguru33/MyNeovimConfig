@@ -1,15 +1,6 @@
-set background=dark "Vim will try to use colors that look good on a dark background.
-let g:gruvbox_contrast_dark = 'hard'
-colorscheme gruvbox "Set the colorscheme to GruvBox
-highlight Normal guibg=NONE
+source $HOME/.config/nvim/themes/onedark.vim
+source $HOME/.config/nvim/themes/gruvbox.vim
+source $HOME/.config/nvim/themes/snazzy.vim
 
-let g:lightline = {
-      \ 'colorscheme': 'gruvbox',
-      \ 'active': {
-      \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'gitbranch', 'readonly', 'filename', 'modified' ] ]
-      \ },
-      \ 'component_function': {
-      \   'gitbranch': 'FugitiveHead'
-      \ },
-      \ }
+
+

@@ -1,3 +1,6 @@
+
+command! -nargs=0 Prettier :CocCommand prettier.formatFile
+
 " Coc extensions
 let g:coc_global_extensions = [
       \'coc-json', 
