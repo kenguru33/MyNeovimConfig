@@ -4,5 +4,5 @@ let g:onedark_terminal_italics=1
 
 colorscheme onedark
 set background=dark
-let g:airline_theme='onedark'
+" let g:airline_theme='onedark'
 
