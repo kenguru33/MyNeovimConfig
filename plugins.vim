@@ -11,12 +11,13 @@ Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'joshdick/onedark.vim'
-Plug 'connorholyday/vim-snazzy'
-Plug 'meister/vim-snazzyfied'
-
+Plug 'sheerun/vim-polyglot'
+Plug 'luochen1990/rainbow'
 call plug#end()
 
 source $HOME/.config/nvim/plugins-settings/coc.vim
 source $HOME/.config/nvim/plugins-settings/coc-explorer.vim
 source $HOME/.config/nvim/plugins-settings/fzf.vim
 source $HOME/.config/nvim/plugins-settings/airline.vim
+source $HOME/.config/nvim/plugins-settings/rainbow.vim
+
