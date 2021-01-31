@@ -31,7 +31,8 @@ set laststatus=2             "Allways show status line
 set showtabline=2
 set modifiable               "Fix modifiable on terminal
 set clipboard=unnamedplus    "Suport for system clipboard
-
+set splitright               "Default put vertical splits to right"
+set splitbelow               "Default put horizontal splits below 
 let mapleader = " "
 nnoremap <Leader>v :e $MYVIMRC<cr>
 nnoremap <Leader>vt :e $HOME/Documents/vim-tips.txt<cr>

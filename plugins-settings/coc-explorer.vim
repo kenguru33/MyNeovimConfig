@@ -1,5 +1,5 @@
 au BufEnter * if bufname('#') == '[coc-explorer]-1' && bufname('') !~ '[coc-explorer]-1' && winnr('$') > 1 | b# | exe "normal! \<c-w>\<c-w>" | :blast | endif
-autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
+"autocmd BufEnter * if (winnr("$") == 1 && &filetype == 'coc-explorer') | q | endif
 
 " Coc Exploer Keys
 " Use preset argument to open it
