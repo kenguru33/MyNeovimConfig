@@ -1,6 +1,3 @@
-set cursorline
-source $HOME/.config/nvim/themes/onedark.vim
-"source $HOME/.config/nvim/themes/gruvbox.vim
-
-
+let current_scheme = get(g:, 'colors_name', 'default')
+exec "source" . $HOME . "/.config/nvim/themes/" . current_scheme . ".vim"
 
