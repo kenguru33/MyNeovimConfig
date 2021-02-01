@@ -1,5 +1,5 @@
 " vim general settings
-syntax on                    "Show parts of the text in another font or color.
+syntax enable                "Show parts of the text in another font or color.
 colorscheme onedark          "Set colorscheme  
 set backspace=2              "Make backspace work like most other programs
 set nohlsearch               "Stop the highlighting for the 'hlsearch' option.                           
@@ -34,12 +34,4 @@ set modifiable               "Fix modifiable on terminal
 set clipboard=unnamedplus    "Suport for system clipboard
 set splitright               "Default put vertical splits to right"
 set splitbelow               "Default put horizontal splits below 
-set cursorline
-let mapleader = " "
-nnoremap <Leader>v :e $MYVIMRC<cr>
-nnoremap <Leader>q :bd<CR>
-nnoremap <Leader>vt :e $HOME/Documents/vim-tips.txt<cr>
-inoremap jj <ESC>
-" move among buffers with CTRL
-map <C-J> :bnext<CR>
-map <C-K> :bprev<CR>
+set cursorline               "Show cursorline"
