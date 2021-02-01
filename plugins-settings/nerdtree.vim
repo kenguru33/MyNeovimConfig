@@ -24,5 +24,4 @@ if has_key(plugs, 'nerdtree')
   let g:WebDevIconsUnicodeDecorateFolderNodes = v:true
   let g:NERDTreeDirArrowExpandable = "\u00a0"
   let g:NERDTreeDirArrowCollapsible = "\u00a0"
-  highlight! link NERDTreeFlags NERDTreeDir
 endif
