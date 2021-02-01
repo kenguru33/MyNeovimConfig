@@ -17,5 +17,5 @@ Plug 'moll/vim-bbye'
 Plug 'luochen1990/rainbow'
 call plug#end()
 
+call AutoInstallPlugins()
 call SourceDirectory('$HOME/.config/nvim/plugins-settings')
-

@@ -3,3 +3,9 @@ function! SourceDirectory(file)
     exe 'source' s:fpath
   endfor
 endfunction
+
+function! AutoInstallPlugins()
+  if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+    PlugInstall --sync | q
+  endif
+endfunction
