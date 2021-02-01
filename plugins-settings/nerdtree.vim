@@ -4,7 +4,7 @@ if has_key(plugs, 'nerdtree')
   nnoremap <leader>n :NERDTreeFocus<CR>
   nnoremap <C-n> :NERDTree<CR>
   nnoremap <C-t> :NERDTreeToggle<CR>
-  " nnoremap <C-f> :NERDTreeFind<CR>
+  nnoremap <C-f> :NERDTreeFind<CR>
   
   " Start NERDTree when Vim is started without file arguments.
   autocmd StdinReadPre * let s:std_in=1
@@ -19,6 +19,7 @@ if has_key(plugs, 'nerdtree')
   " Open the existing NERDTree on each new tab.
   autocmd BufWinEnter * silent NERDTreeMirror
 
+  " Remove leftside space, hide arrows"
   let g:DevIconsEnableFoldersOpenClose = 1
   let g:WebDevIconsNerdTreeBeforeGlyphPadding = ''
   let g:WebDevIconsUnicodeDecorateFolderNodes = v:true
