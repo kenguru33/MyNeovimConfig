@@ -11,6 +11,7 @@ Plug 'joshdick/onedark.vim'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
+Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'moll/vim-bbye'
 Plug 'luochen1990/rainbow'
 call plug#end()
