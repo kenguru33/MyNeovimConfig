@@ -1,5 +1,4 @@
 if has_key(plugs, 'vim-airline')
-  echo "Configure vim-airline..."
 
   let g:lightline#bufferline#show_number  = 1
   let g:lightline#bufferline#shorten_path = 0
