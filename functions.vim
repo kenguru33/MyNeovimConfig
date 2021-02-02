@@ -6,6 +6,7 @@ endfunction
 
 function! AutoInstallPlugins()
   if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+    NERDTreeClose
     PlugInstall --sync | q
   endif
 endfunction
