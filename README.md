@@ -17,7 +17,7 @@ Main features
 Install neovim, fuzzy finder, file wathcer and ripgrep.
 
 ```bash
-brew install fzf watchman rg
+brew install neovim fzf watchman rg
 ```
 
 Install Vim-Plug as plugin installer:
@@ -31,8 +31,9 @@ Clone the config:
 
 ```bash
 mkdir -p ~/.config
-cd nvim
+cd ~/.config
 git clone https://github.com/kenguru33/MyNeovimConfig.git nvim
+cd nvim
 ```
 
 Start neovim and sit back and wait for the plugin installation to finish.
