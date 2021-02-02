@@ -18,9 +18,10 @@ if has_key(plugs, 'nerdtree')
   autocmd BufWinEnter * silent NERDTreeMirror
 
   " Remove leftside space, hide arrows"
-  let g:DevIconsEnableFoldersOpenClose = 1
-  let g:WebDevIconsNerdTreeBeforeGlyphPadding = ''
-  let g:WebDevIconsUnicodeDecorateFolderNodes = v:true
-  let g:NERDTreeDirArrowExpandable = "\u00a0"
-  let g:NERDTreeDirArrowCollapsible = "\u00a0"
+ let g:DevIconsEnableFoldersOpenClose = 1
+ let g:WebDevIconsNerdTreeBeforeGlyphPadding = ' '
+ let g:webdevicons_conceal_nerdtree_brackets = 1
+ let g:WebDevIconsUnicodeDecorateFolderNodes = v:true
+ let g:NERDTreeDirArrowExpandable = "\u00a0"
+ let g:NERDTreeDirArrowCollapsible = "\u00a0"
 endif

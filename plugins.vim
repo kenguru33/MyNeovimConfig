@@ -1,7 +1,6 @@
 call plug#begin('~/.vim/plugged')
 Plug 'morhetz/gruvbox'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'ryanoasis/vim-devicons'
 Plug 'mbbill/undotree'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -15,6 +14,8 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'moll/vim-bbye'
 Plug 'luochen1990/rainbow'
+"Plug 'kien/rainbow_parentheses.vim'
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 call AutoInstallPlugins()
