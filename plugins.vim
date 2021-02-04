@@ -14,7 +14,6 @@ Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'moll/vim-bbye'
 Plug 'luochen1990/rainbow'
-"Plug 'kien/rainbow_parentheses.vim'
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
