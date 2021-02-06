@@ -2,15 +2,15 @@
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Coc extensions
-"let g:coc_global_extensions = [
-"      \'coc-json', 
-"      \'coc-git', 
-"      \'coc-tsserver',
-"      \'coc-yaml',
-"      \'coc-prettier',
-"      \'coc-eslint',
-"      \'coc-pairs'
-"      \]
+let g:coc_global_extensions = [
+      \'coc-json', 
+      \'coc-git', 
+      \'coc-tsserver',
+      \'coc-yaml',
+      \'coc-prettier',
+      \'coc-eslint',
+      \'coc-pairs'
+      \]
 
 " Use tab for trigger completion with characters ahead and navigate.
 " NOTE: Use command ':verbose imap <tab>' to make sure tab is not mapped by
