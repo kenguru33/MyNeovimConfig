@@ -27,4 +27,6 @@ if has_key(plugs, 'nerdtree')
 
  " Automatically close NERDTree when opening a file
  let NERDTreeQuitOnOpen = 1
+ " Automatically delete the buffer of the file you just deleted with NerdTree 
+ let NERDTreeAutoDeleteBuffer = 1
 endif
