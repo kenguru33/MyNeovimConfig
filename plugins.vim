@@ -12,10 +12,12 @@ Plug 'tpope/vim-surround'
 Plug 'scrooloose/nerdtree'
 Plug 'xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plug 'moll/vim-bbye'
+"Plug 'moll/vim-bbye'
 Plug 'luochen1990/rainbow'
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
 call AutoInstallPlugins()
 call SourceDirectory('$HOME/.config/nvim/plugins-settings')
+
+source $HOME/.config/nvim/plugins-settings/vim-airline.vim
