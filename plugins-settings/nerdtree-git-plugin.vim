@@ -1,4 +1,4 @@
-if has_key(plugs, 'fzf.vim')
+if has_key(plugs, 'nerdtree.vim')
 "      let g:NERDTreeGitStatusUseNerdFonts = 1
 "      let g:NERDTreeGitStatusShowIgnored = 1
       let g:NERDTreeGitStatusUntrackedFilesMode = 'all'
