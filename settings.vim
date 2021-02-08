@@ -1,6 +1,5 @@
 " vim general settings
 syntax enable                "Show parts of the text in another font or color.
-colorscheme onedark          "Set colorscheme  
 set backspace=2              "Make backspace work like most other programs
 set nohlsearch               "Stop the highlighting for the 'hlsearch' option.                           
 set number                   "Precede each line with its line number.
