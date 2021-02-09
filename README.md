@@ -3,8 +3,9 @@
 Main features
 
 - COC - Conqueror Of Completion
+- Auto-Pair
+- Surround
 - FZF - Fuzzy finder
-- NerdTree file explorer with git plugin
 - OneDark theme (GruvBox also included)
 - Airline status line
 - Undotree - Persistent undo tree
