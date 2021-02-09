@@ -1,13 +1,12 @@
-# Anker Vim Config
+# My Awesome Vim Config
 
 Main features
 
 - COC - Conqueror Of Completion
-<<<<<<< HEAD
-- auto-pair
-=======
+  <<<<<<< HEAD
+- # auto-pair
 - coc-pair
->>>>>>> dev
+  > > > > > > > dev
 - Surround
 - FZF - Fuzzy finder
 - OneDark theme (GruvBox also included)
