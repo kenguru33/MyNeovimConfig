@@ -1,4 +1,4 @@
-# Anker Vim Config
+# Vim Config
 
 Main features
 
