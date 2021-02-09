@@ -3,7 +3,7 @@
 Main features
 
 - COC - Conqueror Of Completion
-- Auto-Pair
+- coc-pair
 - Surround
 - FZF - Fuzzy finder
 - OneDark theme (GruvBox also included)
