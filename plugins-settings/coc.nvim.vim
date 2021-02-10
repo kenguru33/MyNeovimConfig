@@ -1,4 +1,4 @@
-
+if has_key(plugs, 'coc.nvim')
 command! -nargs=0 Prettier :CocCommand prettier.formatFile
 
 " Coc extensions
@@ -197,3 +197,4 @@ nmap <space>eb :CocCommand explorer --preset buffer<CR>
 
 " List all presets
 nmap <space>el :CocList explPresets
+endif
