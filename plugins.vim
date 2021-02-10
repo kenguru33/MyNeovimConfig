@@ -11,6 +11,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-surround'
 Plug 'luochen1990/rainbow'
 Plug 'ryanoasis/vim-devicons'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
 call AutoInstallPlugins()
