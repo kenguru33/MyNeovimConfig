@@ -1,4 +1,4 @@
-nmap <F8> :TagbarToggle<CR>
+nmap <F8> :TagbarOpenAutoClose <CR>
 
 let g:tagbar_type_typescript = {
   \ 'ctagstype': 'typescript',
@@ -13,3 +13,4 @@ let g:tagbar_type_typescript = {
     \ 'e:enums',
   \ ]
 \ }
+

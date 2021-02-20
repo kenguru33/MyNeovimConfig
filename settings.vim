@@ -3,7 +3,7 @@ syntax enable                "Show parts of the text in another font or color.
 set backspace=2              "Make backspace work like most other programs
 set nohlsearch               "Stop the highlighting for the 'hlsearch' option.                           
 set number                   "Precede each line with its line number.
-set relativenumber           "Show the line number relative to the line with cursor.
+set norelativenumber           "Show the line number relative to the line with cursor.
 set smartcase                "Override the ignorecase is search pattern contains upper case.
 set ignorecase               "Ignoring case in a pattern.
 set nowrap                   "Lines will not wrap.
@@ -35,3 +35,4 @@ set splitright               "Default put vertical splits to right"
 set splitbelow               "Default put horizontal splits below 
 set cursorline               "Show cursorline"
 set mouse=a                  "Enable mouse
+set background=dark

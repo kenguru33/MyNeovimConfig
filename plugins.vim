@@ -10,8 +10,11 @@ Plug 'joshdick/onedark.vim'
 Plug 'tpope/vim-surround'
 Plug 'luochen1990/rainbow'
 Plug 'ryanoasis/vim-devicons'
-Plug 'majutsushi/tagbar'
-Plug 'tadaa/vimade'
+"Plug 'majutsushi/tagbar'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'liuchengxu/vista.vim'
+"Plug 'tadaa/vimade'
 call plug#end()
 
 call AutoInstallPlugins()
