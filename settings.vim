@@ -35,4 +35,3 @@ set splitright               "Default put vertical splits to right"
 set splitbelow               "Default put horizontal splits below 
 set cursorline               "Show cursorline"
 set mouse=a                  "Enable mouse
-set background=dark
