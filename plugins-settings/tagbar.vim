@@ -1,3 +1,4 @@
+if has_key(plugs, 'fzf.vim')
 nmap <F8> :TagbarOpenAutoClose <CR>
 
 let g:tagbar_type_typescript = {
@@ -13,4 +14,4 @@ let g:tagbar_type_typescript = {
     \ 'e:enums',
   \ ]
 \ }
-
+endif
