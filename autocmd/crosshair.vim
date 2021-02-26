@@ -4,8 +4,9 @@ augroup CrossHair
   au VimEnter * setlocal cursorline
   au WinEnter * setlocal cursorline
   au BufWinEnter * setlocal cursorline
-  au WinLeave * setlocal nocursorline
-
+  if @% =~ "[Coc Explorer]"
+    au WinLeave * setlocal nocursorline
+  endif
   au VimEnter * setlocal cursorcolumn
   au WinEnter * setlocal cursorcolumn
   au BufWinEnter * setlocal cursorcolumn
