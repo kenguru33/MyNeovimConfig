@@ -13,6 +13,8 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'majutsushi/tagbar'
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
+Plug 'lilydjwg/colorizer'
+Plug 'puremourning/vimspector'
 call plug#end()
 
 call AutoInstallPlugins()
