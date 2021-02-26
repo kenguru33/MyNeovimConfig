@@ -6,6 +6,8 @@
     "javascript",
     "jsonc"
   ],
+  "explorer.file.autoReveal": true,
+  "explorer.file.revealWhenOpen": true,
   "explorer.trash.command": "trash %l",
   "explorer.file.showHiddenFiles": false,
   "explorer.icon.enableNerdfont": true,
