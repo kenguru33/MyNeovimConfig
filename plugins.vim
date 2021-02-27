@@ -15,6 +15,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
 Plug 'lilydjwg/colorizer'
 Plug 'puremourning/vimspector'
+Plug 'tpope/vim-commentary'
 call plug#end()
 
 call AutoInstallPlugins()
