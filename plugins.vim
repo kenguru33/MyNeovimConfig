@@ -16,6 +16,8 @@ Plug 'leafgarland/typescript-vim'
 Plug 'lilydjwg/colorizer'
 Plug 'puremourning/vimspector'
 Plug 'tpope/vim-commentary'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
 call AutoInstallPlugins()
